@@ -9,7 +9,8 @@ This is an opinionated [Next.js](https://nextjs.org/) project starter template.
 - Extended from default `create-next-app` starter
 - Uses TypeScript
 - Includes Chakra UI for styling
-- Next SEO for easy metadata manipulation
+- Next SEO for easy management of metadata
+- Cloudflare web analytics included
 
 ## Getting Started
 
