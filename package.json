@@ -1,7 +1,12 @@
 {
   "name": "next-starter",
+  "description": "Opinionated Next.js project starter template, with TypeScript, Chakra UI and more.",
   "version": "1.0.0",
-  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iffa/next-starter.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
