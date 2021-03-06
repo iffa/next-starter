@@ -2,15 +2,17 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/iffa/next-starter)
 
-This is an opinionated [Next.js](https://nextjs.org/) project starter template.
+Opinionated [Next.js](https://nextjs.org/) project starter template.
 
 ## Features
 
-- Extended from default `create-next-app` starter
-- Uses TypeScript
-- Includes Chakra UI for styling
-- Next SEO for easy management of metadata
-- Cloudflare web analytics included
+- Extended from default `create-next-app` starter with TypeScript support
+- Includes [Chakra UI](https://chakra-ui.com/) for styling
+- [next-translate](https://github.com/vinissimus/next-translate) for internationalization
+- [next-seo](https://github.com/garmeeh/next-seo) for easy management of SEO metadata
+- [Cloudflare web analytics](https://www.cloudflare.com/web-analytics/) included
+- A bunch of tools for a better dev experience, including [ESLint](https://eslint.org/), [Prettier](https://prettier.io/) and [commitlint](https://commitlint.js.org)
+- One-click deploy to [Vercel](https://vercel.com)
 
 ## Getting Started
 
