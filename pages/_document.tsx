@@ -1,5 +1,3 @@
-import { AppTheme } from '@app/styles/app.theme';
-import { ColorModeScript } from '@chakra-ui/react';
 import Document, { Head, Html, Main, NextScript } from 'next/document';
 import React from 'react';
 
@@ -32,9 +30,6 @@ class AppDocument extends Document {
           }
         </Head>
         <body>
-          <ColorModeScript
-            initialColorMode={AppTheme.config.initialColorMode}
-          />
           <Main />
           <NextScript />
 
