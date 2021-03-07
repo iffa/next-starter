@@ -11,6 +11,7 @@ Opinionated [Next.js](https://nextjs.org/) project starter template.
 - [next-translate](https://github.com/vinissimus/next-translate) for internationalization
 - [next-seo](https://github.com/garmeeh/next-seo) for easy management of SEO metadata
 - [Cloudflare web analytics](https://www.cloudflare.com/web-analytics/) included
+- End-to-end testing with [Cypress](https://www.cypress.io/)
 - A bunch of tools for a better dev experience, including [ESLint](https://eslint.org/), [Prettier](https://prettier.io/) and [commitlint](https://commitlint.js.org)
 - One-click deploy to [Vercel](https://vercel.com)
 
