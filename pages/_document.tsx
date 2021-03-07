@@ -4,7 +4,7 @@ import React from 'react';
 class AppDocument extends Document {
   render(): JSX.Element {
     return (
-      <Html lang="en">
+      <Html>
         <Head>
           <link
             rel="icon"
