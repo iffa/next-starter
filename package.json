@@ -11,7 +11,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "e2e": "start-test 'yarn dev' 3000 'yarn cy:run'",
+    "test": "start-test 'yarn dev' 3000 'yarn cy:run'",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "format": "prettier --write --ignore-unknown .",
     "analyze": "cross-env ANALYZE=true yarn build",

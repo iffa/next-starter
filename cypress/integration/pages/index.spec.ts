@@ -1,4 +1,4 @@
-describe('next-starter', () => {
+describe('/', () => {
   it('successfully loads', () => {
     cy.visit('/');
   });
