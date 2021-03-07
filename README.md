@@ -1,4 +1,7 @@
 <h1 align="center">next-starter</h1>
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/iffa/next-starter)
 
@@ -51,3 +54,16 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://iffa.dev"><img src="https://avatars.githubusercontent.com/u/759522?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Santeri Elo</b></sub></a><br /><a href="https://github.com/iffa/next-starter/commits?author=iffa" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
