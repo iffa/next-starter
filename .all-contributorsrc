@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "iffa",
+      "name": "Santeri Elo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/759522?v=4",
+      "profile": "https://iffa.dev",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "next-starter",
+  "projectOwner": "iffa",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
