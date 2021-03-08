@@ -18,6 +18,10 @@ export default NextAuth({
       },
       from: process.env.EMAIL_FROM,
     }),
+    Providers.GitHub({
+      clientId: process.env.NEXTAUTH_GITHUB_ID,
+      clientSecret: process.env.NEXTAUTH_GITHUB_SECRET,
+    }),
   ],
   adapter: Adapters.Prisma.Adapter({ prisma }),
   secret: process.env.NEXTAUTH_SECRET,
