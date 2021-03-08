@@ -1,0 +1,25 @@
+version: '3.7'
+
+services:
+  postgres:
+    image: postgres:13
+    container_name: postgres
+    ports:
+      - 5432:5432
+    env_file:
+      - .env.local
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-changeme}
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    networks:
+      - postgres
+    restart: unless-stopped
+
+networks:
+  postgres:
+    driver: bridge
+
+volumes:
+  postgres:

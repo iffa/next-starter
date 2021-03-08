@@ -1,4 +1,4 @@
 {
-  "hello-world": "Hei maailma.",
+  "hello": "Hei {{name}}.",
   "toggle-color-mode": "Vaihda väritilaa"
 }

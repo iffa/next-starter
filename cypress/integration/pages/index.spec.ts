@@ -10,13 +10,13 @@ describe('/', () => {
   it('has correct text for default locale', () => {
     cy.visit('/');
 
-    cy.get('h2').contains('Hello world.');
+    cy.get('h2').contains('Hello 🦄.');
   });
 
   it('has correct text for alternative locale', () => {
     cy.visit('/fi');
 
-    cy.get('h2').contains('Hei maailma.');
+    cy.get('h2').contains('Hei 🦄.');
   });
 
   it('clicking language selector navigates to alternative locale', () => {
