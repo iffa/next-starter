@@ -28,7 +28,7 @@ jobs:
       # Alternative: create and commit an empty cypress/screenshots folder
       # to always have something to upload
       - name: Upload screenshots
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v2
         if: failure()
         with:
           name: cypress-screenshots
@@ -36,7 +36,7 @@ jobs:
 
       # Test run video was always captured, so this action uses "always()" condition
       - name: Upload videos
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v2
         if: always()
         with:
           name: cypress-videos
