@@ -3950,10 +3950,10 @@ next-translate@1.0.4:
   resolved "https://registry.yarnpkg.com/next-translate/-/next-translate-1.0.4.tgz#e44b6df4cefc89c24d4b97160d70c4ff9cc37bb5"
   integrity sha512-+PY/iOQFsJuNm6ehC3Be/sCCwt4TBxlPOWV3JWmWYa2LOzUIL40qjsRbYuB67NY7Mp9QJz1cZt8pKdlVTVO2JA==
 
-next-yup@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/next-yup/-/next-yup-1.0.1.tgz#9ec26c663db99111531dd71e96d1ef93ebd23708"
-  integrity sha512-SjyTafvOZrGet6EEr+3tMsRcLoVn3BE8gMFfBZ/aylI5jhBFrCXpLAvuucpc82qCS5ebEZkeQuV+YXu17lKVLQ==
+next-yup@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/next-yup/-/next-yup-1.1.0.tgz#1769531b6fa747bb349b64e90ef71046d2172e40"
+  integrity sha512-82reGi+9SnEP7ysZzYsM6e0yWggnmxRi2y9OGaFtthqR3JIQogYHb/Mf1ANGjz8kduadcmm+GzUkZo6UoF+lBw==
 
 next@10.0.8:
   version "10.0.8"
