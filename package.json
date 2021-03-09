@@ -19,7 +19,8 @@
     "cy:run": "cypress run",
     "docker:db": "docker-compose -f docker-compose.db.yml up -d",
     "prisma:local": "dotenv -c local -- prisma",
-    "prisma:local:migrate": "dotenv -c local -- prisma migrate dev --preview-feature"
+    "prisma:local:migrate": "dotenv -c local -- prisma migrate dev --preview-feature",
+    "prisma:push": "dotenv -c production.local -- prisma db push --preview-feature"
   },
   "husky": {
     "hooks": {
@@ -44,6 +45,7 @@
     "next-yup": "1.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-icons": "4.2.0",
     "yup": "0.32.9"
   },
   "devDependencies": {

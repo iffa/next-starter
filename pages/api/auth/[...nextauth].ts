@@ -6,17 +6,14 @@ import Providers from 'next-auth/providers';
 const prisma = new PrismaClient();
 
 export default NextAuth({
+  pages: {
+    signIn: '/auth/signin',
+    verifyRequest: '/auth/verify-request',
+  },
   providers: [
     Providers.Email({
-      server: {
-        host: process.env.EMAIL_SERVER_HOST,
-        port: Number.parseInt(process.env.EMAIL_SERVER_PORT),
-        auth: {
-          user: process.env.EMAIL_SERVER_USER,
-          pass: process.env.EMAIL_SERVER_PASSWORD,
-        },
-      },
-      from: process.env.EMAIL_FROM,
+      server: process.env.NEXTAUTH_EMAIL_SERVER,
+      from: process.env.NEXTAUTH_EMAIL_FROM,
     }),
     Providers.GitHub({
       clientId: process.env.NEXTAUTH_GITHUB_ID,

@@ -1,7 +1,7 @@
 import { Colors, extendTheme } from '@chakra-ui/react';
 
 const colors: Colors = {
-  //? Override default Chakra UI colors or add new
+  // TODO: Override default Chakra UI colors or add new
 };
 
 /**
@@ -9,10 +9,6 @@ const colors: Colors = {
  */
 export const AppTheme = extendTheme({
   colors,
-  config: {
-    useSystemColorMode: false,
-    initialColorMode: 'light',
-  },
   fonts: {
     // TODO: Add custom typography
     // heading: "Montserrat, sans-serif",

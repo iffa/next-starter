@@ -998,7 +998,7 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.4.4.tgz#11d5db19bd178936ec89cd84519c4de439574398"
   integrity sha512-1oO6+dN5kdIA3sKPZhRGJTfGVP4SWV6KqlMOwry4J3HfyD68sl/3KmG7DeYUzvN+RbhXDnv/D8vNNB8168tAMg==
 
-"@prisma/client@^2.18.0":
+"@prisma/client@2.18.0":
   version "2.18.0"
   resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.18.0.tgz#bff0a206f3caf7525583c703146f835dee0b5ad6"
   integrity sha512-tRu0bdYNKIdWnFIbtgUmZyPgtDLV3AgwO8NYXirlbSn5poygbSaV87UfOBh1NmrvjS9EBP5dQv+bs62sVB84hA==
@@ -1092,7 +1092,7 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.1.tgz#283f669ff76d7b8260df8ab7a4262cc83d988256"
   integrity sha512-fZQQafSREFyuZcdWFAExYjBiCL7AUCdgsk80iO0q4yihYYdcIiH28CcuPTGFgLOCC8RlW49GSQxdHwZP+I7CNg==
 
-"@types/next-auth@^3.7.0":
+"@types/next-auth@3.7.0":
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/@types/next-auth/-/next-auth-3.7.0.tgz#662af22450a2a08c676be3673fd21f33d7a1618f"
   integrity sha512-jOJ4KlT4Ntfe8Xg2WT0yw880Z2Vv+B0OntCAMiV6mSRWLq5Oj5X42PIkn0x8RtXYBkhjQpPa5TCDhJqXZwH0Ww==
@@ -2378,7 +2378,7 @@ dot-prop@^5.1.0:
   dependencies:
     is-obj "^2.0.0"
 
-dotenv-cli@^4.0.0:
+dotenv-cli@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/dotenv-cli/-/dotenv-cli-4.0.0.tgz#3cdd68b87ccd63c78dbfa72aab2f639bbeba5f4b"
   integrity sha512-ByKEec+ashePEXthZaA1fif9XDtcaRnkN7eGdBDx3HHRjwZ/rA1go83Cbs4yRrx3JshsCf96FjAyIA2M672+CQ==
@@ -4143,7 +4143,7 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-auth@^3.11.2:
+next-auth@3.11.2:
   version "3.11.2"
   resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-3.11.2.tgz#466a4454fbd435a5c4c783f2278aa763b3289787"
   integrity sha512-BzsfVIrGr59H88ADHLmy0t5nDqlaIJoCSKHJJIP7HEaB6GzPJJ5h2yX85w+LAeslviTd1q8eeBtMUBXpwy/6LQ==
@@ -4707,7 +4707,7 @@ pretty-format@^3.8.0:
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-3.8.0.tgz#bfbed56d5e9a776645f4b1ff7aa1a3ac4fa3c385"
   integrity sha1-v77VbV6ad2ZF9LH/eqGjrE+jw4U=
 
-prisma@^2.18.0:
+prisma@2.18.0:
   version "2.18.0"
   resolved "https://registry.yarnpkg.com/prisma/-/prisma-2.18.0.tgz#b19a2d4a487b8b62759777be55506567af41f6ae"
   integrity sha512-03po/kFW3/oGHtnANgZiKYz22KEx6NpdaIP2r4eievmVam9f2+0PdP4x/KSFdMCT6B6VHh+3ILTi2z3bYosCgA==
@@ -4887,6 +4887,11 @@ react-focus-lock@2.5.0:
     react-clientside-effect "^1.2.2"
     use-callback-ref "^1.2.1"
     use-sidecar "^1.0.1"
+
+react-icons@4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.2.0.tgz#6dda80c8a8f338ff96a1851424d63083282630d0"
+  integrity sha512-rmzEDFt+AVXRzD7zDE21gcxyBizD/3NqjbX6cmViAgdqfJ2UiLer8927/QhhrXQV7dEj/1EGuOTPp7JnLYVJKQ==
 
 react-is@16.13.1, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
