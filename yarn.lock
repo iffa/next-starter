@@ -3952,10 +3952,10 @@ next-seo@4.22.0:
   resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-4.22.0.tgz#5487080bf6f84031bc4686f9e37ecaad78f8cc5d"
   integrity sha512-W4WBkSGIHRPHqIjfUy72Xv8Zx4q38LJLIcxkXlJecLSruQhtPGx8z2H3ct00D9uLbk9Bj2HbYVS5fewqx8ki2g==
 
-next-translate@1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/next-translate/-/next-translate-1.0.4.tgz#e44b6df4cefc89c24d4b97160d70c4ff9cc37bb5"
-  integrity sha512-+PY/iOQFsJuNm6ehC3Be/sCCwt4TBxlPOWV3JWmWYa2LOzUIL40qjsRbYuB67NY7Mp9QJz1cZt8pKdlVTVO2JA==
+next-translate@1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/next-translate/-/next-translate-1.0.5.tgz#0c48d25ab4bc05ed1cd8c24f03d95cd9b36e184a"
+  integrity sha512-DD9vsY6/7XYlaOhlJRQvT2TD5joif2x047TZwVPMg5wXBbdach+ryAfBdxEpq4i1tksi/u6ul1/TcSXfpgklIw==
 
 next-yup@1.1.0:
   version "1.1.0"
