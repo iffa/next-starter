@@ -29,7 +29,7 @@
     "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
-    "@chakra-ui/react": "1.3.4",
+    "@chakra-ui/react": "1.5.0",
     "@emotion/react": "11.1.5",
     "@emotion/styled": "11.1.5",
     "framer-motion": "3.10.0",
