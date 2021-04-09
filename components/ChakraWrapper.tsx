@@ -10,7 +10,7 @@ import React from 'react';
 export function ChakraWrapper({
   cookies,
   children,
-}: InferGetServerSidePropsType<typeof getServerSideProps>): JSX.Element {
+}: InferGetServerSidePropsType<typeof chakraWrapperProps>): JSX.Element {
   const colorModeManager =
     typeof cookies === 'string'
       ? cookieStorageManager(cookies)
@@ -22,7 +22,7 @@ export function ChakraWrapper({
   );
 }
 
-export const getServerSideProps: GetServerSideProps = async ({ req }) => {
+export const chakraWrapperProps: GetServerSideProps = async ({ req }) => {
   return {
     props: {
       // first time users will not have any cookies and you may not return
@@ -31,3 +31,7 @@ export const getServerSideProps: GetServerSideProps = async ({ req }) => {
     },
   };
 };
+
+export type ChakraWrapperPropsType = InferGetServerSidePropsType<
+  typeof chakraWrapperProps
+>;
