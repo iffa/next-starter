@@ -798,7 +798,7 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-autoprefixer@^10.2.5:
+autoprefixer@10.2.5:
   version "10.2.5"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.2.5.tgz#096a0337dbc96c0873526d7fef5de4428d05382d"
   integrity sha512-7H4AJZXvSsn62SqZyJCP+1AWwOuoYpUfK6ot9vm0e87XD6mT8lDywc9D9OTJPMULyGcvmIxzTAMeG2Cc+YX+fA==
@@ -4029,6 +4029,15 @@ postcss@8.1.7:
     nanoid "^3.1.16"
     source-map "^0.6.1"
 
+postcss@8.2.9, postcss@^8.1.6, postcss@^8.2.1:
+  version "8.2.9"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.9.tgz#fd95ff37b5cee55c409b3fdd237296ab4096fba3"
+  integrity sha512-b+TmuIL4jGtCHtoLi+G/PisuIl9avxs8IZMSmlABRwNz5RLUUACrC+ws81dcomz1nRezm5YPdXiMEzBEKgYn+Q==
+  dependencies:
+    colorette "^1.2.2"
+    nanoid "^3.1.22"
+    source-map "^0.6.1"
+
 postcss@^6.0.9:
   version "6.0.23"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.23.tgz#61c82cc328ac60e677645f979054eb98bc0e3324"
@@ -4046,15 +4055,6 @@ postcss@^7.0.32:
     chalk "^2.4.2"
     source-map "^0.6.1"
     supports-color "^6.1.0"
-
-postcss@^8.1.6, postcss@^8.2.1, postcss@^8.2.9:
-  version "8.2.9"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.9.tgz#fd95ff37b5cee55c409b3fdd237296ab4096fba3"
-  integrity sha512-b+TmuIL4jGtCHtoLi+G/PisuIl9avxs8IZMSmlABRwNz5RLUUACrC+ws81dcomz1nRezm5YPdXiMEzBEKgYn+Q==
-  dependencies:
-    colorette "^1.2.2"
-    nanoid "^3.1.22"
-    source-map "^0.6.1"
 
 prelude-ls@^1.2.1:
   version "1.2.1"
@@ -4959,7 +4959,7 @@ table@^6.0.4:
     slice-ansi "^4.0.0"
     string-width "^4.2.0"
 
-tailwindcss@^2.1.1:
+tailwindcss@2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.1.1.tgz#642f6038c9283a8e1454da34585b8b7c1a1e8877"
   integrity sha512-zZ6axGqpSZOCBS7wITm/WNHkBzDt5CIZlDlx0eCVldwTxFPELCVGbgh7Xpb3/kZp3cUxOmK7bZUjqhuMrbN6xQ==
