@@ -8,4 +8,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withBundleAnalyzer({
   i18n,
+  future: {
+    webpack5: true,
+  },
 });
