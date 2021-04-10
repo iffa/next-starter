@@ -1,24 +1,21 @@
-import {
-  chakraWrapperProps,
-  ChakraWrapperPropsType,
-} from '@app/components/ChakraWrapper';
-import { Button, Heading, Stack, useColorMode } from '@chakra-ui/react';
-import { GetServerSideProps } from 'next';
+import { GetServerSideProps, InferGetServerSidePropsType } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
 
-export default function Home(): JSX.Element {
+export default function Home(
+  // Do something with props...
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  props: InferGetServerSidePropsType<typeof getServerSideProps>
+): JSX.Element {
   const router = useRouter();
   const { t } = useTranslation(['common', 'home']);
-  const { toggleColorMode } = useColorMode();
 
   return (
-    <Stack align="center" paddingY={8}>
-      <Heading>{t('home:hello-world')}</Heading>
-      <Button onClick={toggleColorMode}>{t('home:toggle-color-mode')}</Button>
+    <div className="container py-4 px-4">
+      <h1 className="text-3xl pb-2">{t('home:hello-world')}</h1>
       {router.locale !== 'en' && (
         <Link href="/" locale="en">
           {t('common:english')}
@@ -29,17 +26,14 @@ export default function Home(): JSX.Element {
           {t('common:finnish')}
         </Link>
       )}
-    </Stack>
+    </div>
   );
 }
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
-  const chakra: ChakraWrapperPropsType = await chakraWrapperProps(context);
-
+export const getServerSideProps: GetServerSideProps = async ({ locale }) => {
   return {
     props: {
-      ...chakra.props,
-      ...(await serverSideTranslations(context.locale, ['common', 'home'])),
+      ...(await serverSideTranslations(locale, ['common', 'home'])),
     },
   };
 };
