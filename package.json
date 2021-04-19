@@ -26,7 +26,7 @@
   "dependencies": {
     "framer-motion": "4.1.3",
     "next": "10.1.3",
-    "next-i18next": "8.1.3",
+    "next-i18next": "8.2.0",
     "next-seo": "4.23.0",
     "next-yup": "1.1.0",
     "react": "17.0.2",
