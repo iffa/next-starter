@@ -39,7 +39,7 @@ export default function Home(
         <h1 className="text-3xl pb-2">{t('home:hello-world')}</h1>
         <h2 className="text-xl pb-2">{revalidationTimestamp}</h2>
         <div className="flex flex-col space-y-2">
-          {router.locales.map((locale) => (
+          {(router.locales ?? []).map((locale) => (
             // include new locale & current path in link for language switching
             <Link key={locale} locale={locale} href={router.asPath}>
               <a data-cy={locale}>{t(`common:languages:${locale}`)}</a>
@@ -51,10 +51,13 @@ export default function Home(
   );
 }
 
-export const getStaticProps: GetStaticProps = async ({ locale }) => {
+export const getStaticProps: GetStaticProps = async (context) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['common', 'home'])),
+      ...(await serverSideTranslations(context.locale || 'en', [
+        'common',
+        'home',
+      ])),
       revalidationTimestamp: new Date().toISOString(),
     },
     // revalidate this static page every 1200 seconds
