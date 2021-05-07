@@ -1,4 +1,6 @@
 {
-  "english": "englanti",
-  "finnish": "suomi"
+  "languages": {
+    "fi": "suomi",
+    "en": "englanti"
+  }
 }

@@ -1,4 +1,5 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document';
+
 import React from 'react';
 
 class AppDocument extends Document {
@@ -7,38 +8,45 @@ class AppDocument extends Document {
       <Html>
         <Head>
           <link
-            rel="icon"
+            rel="preload"
+            href="/fonts/Inter.var.woff2"
+            as="font"
+            type="font/woff2"
+            crossOrigin="true"
+          />
+
+          <link rel="icon" href="/favicon.ico" />
+          <link
+            rel="alternate icon"
             type="image/png"
-            href="favicon-32x32.png"
+            href="/favicon-32x32.png"
             sizes="32x32"
           />
           <link
-            rel="icon"
+            rel="alternate icon"
             type="image/png"
-            href="favicon-16x16.png"
+            href="/favicon-16x16.png"
             sizes="16x16"
           />
-
-          {
-            // * Add custom fonts like this
-            // * For optimal performance, fonts should be hosted locally
-            // <link rel="preconnect" href="https://fonts.gstatic.com" />
-            // <link
-            //   href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
-            //   rel="stylesheet"
-            // />
-          }
+          <link
+            href="/apple-touch-icon.png"
+            rel="apple-touch-icon"
+            sizes="180x180"
+          />
+          <link href="/site.webmanifest" rel="manifest" />
         </Head>
         <body>
           <Main />
           <NextScript />
 
-          {/* Cloudflare Web Analytics */}
-          <script
-            defer
-            src="https://static.cloudflareinsights.com/beacon.min.js"
-            data-cf-beacon={`{"token": "${process.env.ANALYTICS_TOKEN}"}`}
-          />
+          {/* Cloudflare Web Analytics - only run in production build */}
+          {process.env.NODE_ENV === 'production' && (
+            <script
+              defer
+              src="https://static.cloudflareinsights.com/beacon.min.js"
+              data-cf-beacon={`{"token": "${process.env.ANALYTICS_TOKEN}"}`}
+            />
+          )}
         </body>
       </Html>
     );

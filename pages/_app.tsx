@@ -1,9 +1,10 @@
-import { defaultSeo } from '@app/utils/default-seo.config';
-import { appWithTranslation } from 'next-i18next';
-import { DefaultSeo } from 'next-seo';
+import '@app/styles/global.css';
+
 import { AppProps } from 'next/app';
+import { DefaultSeo } from 'next-seo';
 import React from 'react';
-import 'tailwindcss/tailwind.css';
+import { appWithTranslation } from 'next-i18next';
+import { defaultSeo } from '@app/utils/default-seo.config';
 
 function App({ Component, pageProps }: AppProps): JSX.Element {
   return (

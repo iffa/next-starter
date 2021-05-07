@@ -16,11 +16,11 @@
     "baseUrl": ".",
     "paths": {
       "@app/components/*": ["components/*"],
-      "@app/styles/*": ["styles/*"],
       "@app/utils/*": ["utils/*"],
-      "@app/lib/*": ["lib/*"]
+      "@app/lib/*": ["lib/*"],
+      "@app/styles/*": ["styles/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", "cypress"]
+  "exclude": ["node_modules", ".next", "out", "cypress"]
 }

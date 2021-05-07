@@ -10,26 +10,25 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/iffa/next-starter)
 
-Opinionated [Next.js](https://nextjs.org/) project starter template.
+Opinionated [Next.js](https://nextjs.org/) project starter template with
 
 ## Features
 
 - Extended from default `create-next-app` starter with TypeScript support
-- Includes [Chakra UI](https://chakra-ui.com/) for styling
-- [next-translate](https://github.com/vinissimus/next-translate) for internationalization
-- [next-seo](https://github.com/garmeeh/next-seo) for easy management of SEO metadata
+- Includes [Tailwind CSS](https://tailwindcss.com/) for styling
+- [next-i18next](https://github.com/isaachinman/next-i18next) for internationalization
+- [next-seo](https://github.com/garmeeh/next-seo) & [next-sitemap](https://github.com/iamvishnusankar/next-sitemap) for easy management of SEO metadata
 - [Cloudflare web analytics](https://www.cloudflare.com/web-analytics/) included
 - End-to-end testing with [Cypress](https://www.cypress.io/)
 - A bunch of tools for a better dev experience, including [ESLint](https://eslint.org/), [Prettier](https://prettier.io/) and [commitlint](https://commitlint.js.org)
-- One-click deploy to [Vercel](https://vercel.com)
+- One-click deploy to [Vercel](https://vercel.com), of course!
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies and run the development server:
 
 ```bash
-npm run dev
-# or
+yarn install
 yarn dev
 ```
 

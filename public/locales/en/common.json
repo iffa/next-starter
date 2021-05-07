@@ -1,4 +1,6 @@
 {
-  "english": "English",
-  "finnish": "Finnish"
+  "languages": {
+    "fi": "Finnish",
+    "en": "English"
+  }
 }
