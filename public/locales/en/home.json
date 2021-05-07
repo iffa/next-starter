@@ -1,4 +1,7 @@
 {
   "hello-world": "Hello world.",
-  "toggle-color-mode": "Toggle color mode"
+  "seo": {
+    "title": "next-starter",
+    "description": "Opinionated Next.js starter project."
+  }
 }

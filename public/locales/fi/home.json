@@ -1,4 +1,7 @@
 {
   "hello-world": "Hei maailma.",
-  "toggle-color-mode": "Vaihda väritilaa"
+  "seo": {
+    "title": "next-starter",
+    "description": "Mielivaltainen ja hullu Next.js-pohjaprojekti."
+  }
 }

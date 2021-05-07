@@ -19,4 +19,18 @@ module.exports = {
       version: 'detect',
     },
   },
+  rules: {
+    // disable the rule for all files
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    'react/prop-types': 'off',
+  },
+  overrides: [
+    {
+      // enable the rule specifically for TypeScript files
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        '@typescript-eslint/explicit-module-boundary-types': ['warn'],
+      },
+    },
+  ],
 };

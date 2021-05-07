@@ -1,5 +1,6 @@
-import withYup from 'next-yup';
 import * as yup from 'yup';
+
+import withYup from 'next-yup';
 
 /**
  * Schema to validate the query/headers/body against.
@@ -18,5 +19,5 @@ const helloSchema = yup.object().shape({
  * GET http://localhost:3000/api/hello?name=John%20Doe
  */
 export default withYup()({ query: helloSchema }, (req, res, data) => {
-  return res.status(200).json({ name: data.query['name'] });
+  return res.status(200).json({ name: data.query?.['name'] });
 });

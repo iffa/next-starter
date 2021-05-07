@@ -22,7 +22,7 @@ describe('/', () => {
   it('clicking language selector navigates to alternative locale', () => {
     cy.visit('/');
 
-    cy.get('a').click();
+    cy.get('[data-cy=fi]').click();
 
     cy.url().should('include', '/fi');
   });
