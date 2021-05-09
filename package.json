@@ -63,7 +63,7 @@
     "next-sitemap": "1.6.25",
     "next-unused": "0.0.6",
     "postcss": "8.2.14",
-    "prettier": "2.2.1",
+    "prettier": "2.3.0",
     "start-server-and-test": "1.12.1",
     "tailwindcss": "2.1.2",
     "typescript": "4.2.4"
