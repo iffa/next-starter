@@ -62,7 +62,7 @@
     "lint-staged": "11.0.0",
     "next-sitemap": "1.6.25",
     "next-unused": "0.0.6",
-    "postcss": "8.2.14",
+    "postcss": "8.2.15",
     "prettier": "2.2.1",
     "start-server-and-test": "1.12.1",
     "tailwindcss": "2.1.2",
