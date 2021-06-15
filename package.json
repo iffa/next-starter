@@ -35,7 +35,7 @@
     "@tailwindcss/forms": "0.3.2",
     "@tailwindcss/line-clamp": "0.2.0",
     "got": "11.8.2",
-    "next": "10.2.0",
+    "next": "11.0.0",
     "next-i18next": "8.2.0",
     "next-seo": "4.24.0",
     "next-yup": "1.1.0",
@@ -47,7 +47,7 @@
   "devDependencies": {
     "@commitlint/cli": "12.1.1",
     "@commitlint/config-conventional": "12.1.1",
-    "@next/bundle-analyzer": "10.2.0",
+    "@next/bundle-analyzer": "11.0.0",
     "@types/node": "14.14.37",
     "@types/react": "17.0.5",
     "@typescript-eslint/eslint-plugin": "4.23.0",
