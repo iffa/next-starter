@@ -10,7 +10,6 @@ module.exports = withBundleAnalyzer({
   i18n,
   reactStrictMode: true,
   future: {
-    webpack5: true,
     strictPostcssConfiguration: true,
   },
   images: {
