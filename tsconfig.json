@@ -14,6 +14,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "baseUrl": ".",
+    "incremental": true,
     "paths": {
       "@app/components/*": ["components/*"],
       "@app/utils/*": ["utils/*"],
