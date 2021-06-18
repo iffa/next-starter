@@ -1,7 +1,7 @@
 {
   "name": "next-starter",
   "description": "Opinionated Next.js project starter template, with TypeScript, Tailwind CSS and more. 🌟",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
