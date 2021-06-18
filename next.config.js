@@ -12,6 +12,9 @@ module.exports = withBundleAnalyzer({
   future: {
     strictPostcssConfiguration: true,
   },
+  eslint: {
+    dirs: ['pages', 'components', 'lib', 'utils'],
+  },
   images: {
     domains: [],
   },
