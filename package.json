@@ -36,7 +36,7 @@
     "@tailwindcss/line-clamp": "0.2.2",
     "got": "11.8.2",
     "next": "11.0.1",
-    "next-i18next": "8.5.1",
+    "next-i18next": "8.10.0",
     "next-seo": "4.26.0",
     "next-yup": "1.1.0",
     "preact": "10.5.13",
