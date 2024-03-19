@@ -45,8 +45,8 @@
     "yup": "0.32.9"
   },
   "devDependencies": {
-    "@commitlint/cli": "12.1.4",
-    "@commitlint/config-conventional": "12.1.4",
+    "@commitlint/cli": "19.2.1",
+    "@commitlint/config-conventional": "19.1.0",
     "@next/bundle-analyzer": "11.0.1",
     "@types/node": "14.14.37",
     "@types/react": "17.0.13",
